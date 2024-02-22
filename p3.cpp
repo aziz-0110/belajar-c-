@@ -39,7 +39,7 @@ int main()
    // dan tidak bisa ganti-ganti data, jika diawal tipe datanya integer maka seterusnya integer
    auto b{3.6};
    cout << "nilai b " << b << endl;
-   // b = "aziz"  // ini akan error.
+   // b = "aziz"  // ini akan error karena berbeda tipe data.
    cout << endl;
 
    cout << "Konstan " << var << endl;
