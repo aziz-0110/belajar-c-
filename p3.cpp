@@ -6,9 +6,10 @@ int staticVariabel();
 int main()
 {
    cout << "JENIS-JENIS VARIABEL" << endl;
+   string var = "Variabel";
 
    // statik variabel => nilai variabel akan terus disimpan meskipun variabel tersebut dideklarasikan di fungsi lain
-   cout << "Statik Variabel" << endl;
+   cout << "Statik " << var << endl;
    int a(2);
    for (int i = 0; i < 3; i++)
    {
@@ -16,8 +17,12 @@ int main()
       cout << "nilai a di fungsi statikVariabel = " << staticVariabel() << endl;
    }
 
-   cout << "Auto Variabel" << endl;
-   auto int b{9};
+   cout << "Auto " << var << endl;
+   // auto variabel => variabel yg secara otomatis menentukan jenis tipe datanya
+   // dan tidak bisa ganti-ganti data, jika diawal tipe datanya integer maka seterusnya integer
+   auto b{3.6};
+   cout << b << endl;
+   // b = "aziz"  // ini akan error.
 }
 
 int staticVariabel()
