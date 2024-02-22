@@ -21,8 +21,13 @@ int main()
    // auto variabel => variabel yg secara otomatis menentukan jenis tipe datanya
    // dan tidak bisa ganti-ganti data, jika diawal tipe datanya integer maka seterusnya integer
    auto b{3.6};
-   cout << b << endl;
+   cout << "nilai b " << b << endl;
    // b = "aziz"  // ini akan error.
+
+   cout << "Konstan " << var << endl;
+   //
+   const int phi(3.14);
+   cont << "nilai phi " << phi << endl;
 }
 
 int staticVariabel()
