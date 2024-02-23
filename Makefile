@@ -1,2 +1,2 @@
 make:
-	g++ p3.cpp -o main
+	g++ p4.cpp -o main
